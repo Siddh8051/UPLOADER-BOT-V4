@@ -54,4 +54,5 @@ class Config(object):
     TG_MIN_FILE_SIZE = 2097152000
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Uploaderv4_bot")
-                                  
+
+    PORT = int(os.environ.get("PORT", 8080))                              
