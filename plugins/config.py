@@ -13,9 +13,9 @@ class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     
-    API_ID = int(os.environ.get("API_ID", "29029800"))
+    API_ID = int(os.environ.get("API_ID", ""))
     
-    API_HASH = os.environ.get("API_HASH", "0258b310e9ebb9b5155b5740d6ecf126")
+    API_HASH = os.environ.get("API_HASH", "")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -39,7 +39,7 @@ class Config(object):
     
     DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://siddharthkumar80510:pNchuMa6VKVQzXwa@siddh80.ftpcr.mongodb.net/?retryWrites=true&w=majority&appName=Siddh80")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
