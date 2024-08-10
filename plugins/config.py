@@ -55,4 +55,4 @@ class Config(object):
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Uploaderv4_bot")
 
-    PORT = int(os.environ.get("PORT", 8080))                              
+    PORT = int(os.environ.get("PORT", 6969))                              
