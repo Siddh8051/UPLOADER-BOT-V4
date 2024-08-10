@@ -41,7 +41,7 @@ class Config(object):
     
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", "Uploaderv4_bot"")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002200442157"))
     
