@@ -13,9 +13,9 @@ class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     
-    API_ID = int(os.environ.get("API_ID", ""))
+    API_ID = int(os.environ.get("API_ID", "29029800"))
     
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "0258b310e9ebb9b5155b5740d6ecf126")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -41,7 +41,7 @@ class Config(object):
     
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "Uploaderv4_bot"")
     
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002200442157"))
     
