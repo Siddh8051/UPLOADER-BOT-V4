@@ -32,3 +32,4 @@ RUN yt-dlp --version
 
 # Run the application
 CMD ["python3", "bot.py"]
+EXPOSE 8080
